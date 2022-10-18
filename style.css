@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(121, 71, 47);
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+
+
+
+}
+.pnav{
+border: 2px solid black;
+padding: 3px;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+}
+a{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+}
+#divhome1{
+    background-color: rgb(215, 174, 123);
+    height: 120px;
+    width: 55%;
+}
+
+body{
+    background-color: #e9bb84;
+    background-image: url(https://i.pinimg.com/originals/b4/75/51/b475516bbbcdc9bbbc5a2ed3a0eb678a.jpg);
+
+    background-repeat: inherit;
+}
+#footer{
+    justify-content: flex-end;
+}
+
+#fotohome1{
+    max-width: 20%;
+    max-height: 200px;
+}
+#fotohome2{
+max-width: 20%;
+max-height: 200px;
+}
+#fotohome3{
+max-width: 20%;
+max-height: 200px;
+}
+#fotohome5{
+max-width: 20%;
+max-height: 200px;
+}
+main{
+margin-left: 5%;
+}
+ul{
+    list-style: circle;
+    font-size: 18px;
+    font-weight: 400;
+}
+#divindex2{
+    border: 1px solid black;
+    padding: 2px;
+    margin-right: 52%;
+    padding-left: 10px;
+    
+}
+h2{
+    margin-left: 2%
+}
+#h2index{
+    font-weight: 700;
+    font-size: 40px;
+}
+#divindex1{
+    font-size: 20px;
+    font-weight: 400;
+}
+#nuestro{
+    margin-left: 8%;
+    font-size: 30px;
+    font-weight: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+.fotoscocina{
+    height: 180px;
+    width: 18%;
+}
+#mortero{
+position: absolute;
+top: 488px;
+left: 36%;
+}
+#utensilios{
+position: absolute;
+top: 620px;
+left: 5%;
+}
+#espatula{
+position: absolute;
+top: 720px;
+left: 36%;
+}
+#fogonero{
+position: absolute;
+top: 840px;
+left: 5%;
+}
+#noqueras{
+position: absolute;
+top: 960px;
+left: 36%;
+}
+#batea{
+position: absolute;
+top: 1080px;
+left: 5%;
+}
+#posavaso{
+position: absolute;
+top: 1200px;
+left: 36%;
+}
+#cocinaptabla{
+position: absolute;
+left: 23%;
+top: 415px;
+}
+#cocinapmortero{
+position: absolute;
+left: 55%;
+top: 550px;
+}
+#cocinaputensilio{
+position: absolute;
+left: 24%;
+top: 675px;
+}
+#cocinapespatula{
+position: absolute;
+left: 55%;
+top: 805px;
+}
+#cocinapfogonero{
+position: absolute;
+left: 24%;
+top: 930px;
+}
+#cocinapnoquera{
+position: absolute;
+left: 55%;
+top: 1060px;
+}
+#cocinapbatea{
+position: absolute;
+left: 24%;
+top: 1170px;
+}
+#cocinapposavaso{
+position: absolute;
+left: 55%;
+top: 1300px;
+}
+
+
+.colgantes{
+    height: 180px;
+    width: 18%;
+}
+#colgantespalo{
+position: absolute;
+left: 5%;
+top: 270px;
+}
+#colgantesmoneda{
+position: absolute;
+left: 36%;
+top: 380px;
+}
+#colgantesclavo{
+position: absolute;
+left: 5%;
+top: 500px;
+}
+#colgantespaz{
+position: absolute;
+left: 36%;
+top: 620px;
+}
+#colgantesvibora{
+position: absolute;
+left: 5%;
+top: 730px;
+}
+#colganteppalo{
+    position: absolute;
+    left: 24%;
+    top: 330px;
+}
+#colgantepmoneda{
+    position: absolute;
+    left: 55%;
+    top: 460px;
+}
+#colgantepclavo{
+    position: absolute;
+    left: 24%;
+    top: 580px;
+}
+#colganteppaz{
+    position: absolute;
+    left: 55%;
+    top: 705px;
+}
+#colgantepvibora{
+    position: absolute;
+    left: 24%;
+    top: 830px;
+}
+
+
+
+.amedida{
+    height: 180px;
+    width: 18%;
+}
+#amedidamueble{
+    position: absolute;
+    left: 5%;
+    top: 300px;
+}
+#amedidabochas{
+    position: absolute;
+    left: 36%;
+    top: 400px;
+}
+#amedidabacha{
+    position: absolute;
+    left: 5%;
+    top: 520px;
+}
+#amedidaapoya{
+    position: absolute;
+    left: 36%;
+    top: 630px;
+}
+#amedidamesa{
+    position: absolute;
+    left: 5%;
+    top: 750px;
+}
+#amedidapmueble{
+position: absolute;
+left: 24%;
+top: 330px;
+}
+#amedidapbochas{
+position: absolute;
+left: 55%;
+top: 460px;
+}
+#amedidapbacha{
+position: absolute;
+left: 24%;
+top: 590px;
+}
+#amedidapapoya{
+position: absolute;
+left: 55%;
+top: 720px;
+}
+#amedidapmesa{
+position: absolute;
+left: 24%;
+top: 830px;
+}
+
+
+.imgmuebles{
+    height: 180px;
+    width: 18%;
+}
+#mueblesmesita{
+position: absolute;
+left: 5%;
+top: 300px;
+}
+#muebleslapiz{
+    position: absolute;
+    left: 36%;
+    top: 400px;
+}
+#mueblesmiche{
+    position: absolute;
+    left: 5%;
+    top: 530px;
+}
+#mueblesreposera{
+    position: absolute;
+    left: 36%;
+    top: 630px;
+}
+#mueblescomedor{
+    position: absolute;
+    left: 5%;
+    top: 750px;
+}
+#mueblespmesita{
+    position: absolute;
+    left: 24%;
+    top: 330px;
+}
+#mueblesplapiz{
+    position: absolute;
+    left: 55%;
+    top: 460px;
+}
+#mueblepmiche{
+    position: absolute;
+    left: 24%;
+    top: 590px;
+}
+#mueblepreposera{
+    position: absolute;
+    left: 55%;
+    top: 720px;
+}
+#mueblepcomedor{
+    position: absolute;
+left: 24%;
+top: 830px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
