@@ -1,0 +1,1131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.bi-instagram{
+font-size: 13px;
+color: black;
+}
+.bi-whatsapp{
+font-size: 13px;
+color: black;
+}
+
+header{
+    background-color: rgb(121, 71, 47);
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+
+
+
+}
+.pnav{
+border: 2px solid black;
+padding: 3px;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+}
+a{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+}
+#divhome1{
+    background-color: rgb(215, 174, 123);
+    height: 120px;
+    width: 55%;
+}
+
+body{
+    background-color: #e9bb84;
+    background-image: url(https://i.pinimg.com/originals/b4/75/51/b475516bbbcdc9bbbc5a2ed3a0eb678a.jpg);
+
+    background-repeat: inherit;
+}
+#footer{
+    justify-content: flex-end;
+}
+
+#fotohome1{
+    max-width: 20%;
+    max-height: 200px;
+}
+
+#fotohome2{
+max-width: 100%px;
+max-height: 210px;
+}
+#fotohome3{
+max-width: 100%;
+max-height: 210px;
+}
+#fotohome5{
+max-width: 100%;
+max-height: 210px;
+}
+main{
+margin-left: 5%;
+}
+ul{
+    list-style: circle;
+    font-size: 18px;
+    font-weight: 400;
+}
+#divindex2{
+    border: 1px solid black;
+    
+}
+h2{
+    margin-left: 2%
+}
+#h2index{
+    font-weight: 700;
+    font-size: 40px;
+}
+#divindex1{
+    font-size: 18px;
+    font-weight: 350;
+}
+#nuestro{
+    font-size: 30px;
+    font-weight: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+.fotoscocina{
+    height: 180px;
+    width: 18%;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+#Indexmaingrilla{
+display: grid;
+grid-template-rows: 100px 100px 100px 100px 100px 100px 100px ;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+grid-template-areas: "a1 a23456 a23456 a23456 a23456 a23456 a7"
+                     "b1 b2345 b2345 b2345 b2345 bc67 bc67"
+                     "c1 c2345 c2345 c2345 c2345 bc67 bc67"
+                     "de12 de12 de34 de34 d5 d6 d7"
+                     "de12 de12 de34 de34 e5 ef67 ef67"
+                     "f12 f12 f3 f4 f5 ef67 ef67"
+                     "g12 g12 g3 g4567 g4567 g4567 g4567";
+column-gap: 2px;
+row-gap: 2px;
+
+}
+
+#h2index{
+    grid-area: a23456;
+align-content: center;
+margin-left: 10%;
+margin-top: 5%;
+}
+#p1index{
+    grid-area: b2345;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+#nuestro{
+    grid-area: c2345;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+#ulindex{
+    grid-area: de34;
+    align-items: center;
+}
+#h3index{
+    grid-area: d67;
+}
+
+#fotohome2{
+grid-area: bc67;
+margin-left: 5%;
+border-radius: 8%;
+}
+#fotohome3{
+grid-area: de12;
+border-radius: 8%;
+}
+#fotohome5{
+grid-area: ef67;
+margin-left: 5%;
+border-radius: 8%;
+}
+#h4index{
+    grid-area: f12;
+    margin-top: 22%;
+}
+#divbotones{
+    grid-area: g12;
+}
+#divindex2{
+    grid-area: g4567;
+    margin-top: 3%;
+}
+
+.pnav :hover{
+    text-decoration: underline;
+}
+
+#fotohome2:hover{
+transform: scale(1.1,1.1);
+}
+#fotohome3:hover{
+transform: scale(1.1,1.1);
+}
+#fotohome5:hover{
+transform: scale(1.1,1.1);
+}
+
+
+#maincocina{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 160px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-areas: "a1234 a1234 a1234 a1234 a5 a6 a7"
+                         "bc123 bc123 bc123 b4 b5 b6 b7"
+                         "bc123 bc123 bc123 c4 c5 c6 c7"
+                         "d1 d2 d3 d4 d5 d6 d7"
+                         "e1 e2 e3 e4 e5 e6 e7"
+                         "f1 f2 f3 f4 f5 f6 f7"
+                         "g1 g2 g3 g4 g5 g6 g7"
+                         "h1 h2 h3 h4 h5 h6 h7"
+                         "i1 i2 i3 i4 i5 i6 i7"
+                         "j1 j2 j3 j4 j5 j6 j7"
+                         "k1 k2 k3 k4 k5 k6 k7"
+                         "l1 l2 l3 l4 l5 l6 l7"
+                         ;
+column-gap: 2px;
+row-gap: 2px;
+}
+#h2cocina{
+    grid-area: a1234;
+}
+#divcocina{
+    grid-area: bc123;
+}
+
+
+#tablapicar{
+grid-area: e1;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+#mortero{
+grid-area: f3;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+#utensilios{
+grid-area: g1;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+#espatula{
+grid-area: h3;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+#fogonero{
+grid-area: i1;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+#noqueras{
+grid-area: j3;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+#batea{
+grid-area: k1;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+#posavaso{
+grid-area: l3;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+
+#cocinaptabla{
+    position: absolute;
+    left: 26%;
+    top: 680px;
+    }
+    #cocinapmortero{
+    position: absolute;
+    left: 53%;
+    top: 780px;
+    }
+    #cocinaputensilio{
+    position: absolute;
+    left: 26%;
+    top: 885px;
+    }
+    #cocinapespatula{
+    position: absolute;
+    left: 53%;
+    top: 985px;
+    }
+    #cocinapfogonero{
+    position: absolute;
+    left: 26%;
+    top: 1090px;
+    }
+    #cocinapnoquera{
+    position: absolute;
+    left: 53%;
+    top: 1190px;
+    }
+    #cocinapbatea{
+    position: absolute;
+    left: 26%;
+    top: 1295px;
+    }
+    #cocinapposavaso{
+    position: absolute;
+    left: 53%;
+    top: 1395px;
+    }
+
+#tablapicar:hover{
+    transform: scale(1.1,1.1);
+}
+#mortero:hover{
+    transform: scale(1.1,1.1);
+}
+#utensilios:hover{
+    transform: scale(1.1,1.1);
+}
+#espatula:hover{
+    transform: scale(1.1,1.1);
+}
+#fogonero:hover{
+    transform: scale(1.1,1.1);
+}
+#noqueras:hover{
+    transform: scale(1.1,1.1);
+}
+#batea:hover{
+    transform: scale(1.1,1.1);
+}
+#posavaso:hover{
+    transform: scale(1.1,1.1);
+}
+
+#colgantesmain{
+
+display: grid;
+grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+grid-template-areas: "a123 a123 a123 a4 a5 a6 a7"
+                     "b123 b123 b123 b4 b5 b6 b7"
+                     "c12 c12 c3 c4 c5 c6 c7"
+                     "d1 d2 d3 d4 d5 d6 d7"
+                     "e1 e2 e3 e4 e5 e6 e7"
+                     "f1 f2 f3 f4 f5 f6 f7"
+                     "g1 g2 g3 g4 g5 g6 g7"
+                     "h1 h2 h3 h4 h5 h6 h7"
+                     "i1 i2 i3 i4 i5 i6 i7"
+                     "j1 j2 j3 j4 j5 j6 j7"
+                     ;
+column-gap: 2px;
+row-gap: 2px;
+}
+
+#h2colgantes{
+grid-area: a123;
+}
+#pcolgantes{
+grid-area: b123;
+}
+#h3colgantes{
+grid-area: c12;
+}
+#colgantespalo{
+grid-area: d1;
+height: 180px;
+width: 150%;
+border-radius: 5%;
+}
+#colgantesmoneda{
+grid-area: e3;
+height: 180px;
+width: 150%;
+border-radius: 5%;
+}
+#colgantesclavo{
+grid-area: f1;
+height: 180px;
+width: 150%;
+border-radius: 5%;
+}
+#colgantespaz{
+grid-area: g3;
+height: 180px;
+width: 150%;
+border-radius: 5%;
+}
+#colgantesvibora{
+grid-area: h1;
+height: 180px;
+width: 150%;
+border-radius: 5%;
+}
+
+
+#colganteppalo{
+    position: absolute;
+    left: 26%;
+    top: 505px;
+}
+#colgantepmoneda{
+    position: absolute;
+    left: 53%;
+    top: 625px;
+}
+#colgantepclavo{
+    position: absolute;
+    left: 26%;
+    top: 725px;
+}
+#colganteppaz{
+    position: absolute;
+    left: 53%;
+    top: 805px;
+}
+#colgantepvibora{
+    position: absolute;
+    left: 26%;
+    top: 930px;
+}
+
+
+#colgantespalo:hover{
+        transform: scale(1.1,1.1);
+    }
+    #colgantesmoneda:hover{
+        transform: scale(1.1,1.1);
+    }
+    #colgantesclavo:hover{
+        transform: scale(1.1,1.1);
+    }
+    #colgantespaz:hover{
+        transform: scale(1.1,1.1);
+    }
+    #colgantesvibora:hover{
+        transform: scale(1.1,1.1);
+    }
+
+
+
+
+
+
+
+#amedidamain{
+
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-areas: "a123 a123 a123 a4 a5 a6 a7"
+                         "b123 b123 b123 b4 b5 b6 b7"
+                         "c12 c12 c3 c4 c5 c6 c7"
+                         "d1 d2 d3 d4 d5 d6 d7"
+                         "e1 e2 e3 e4 e5 e6 e7"
+                         "f1 f2 f3 f4 f5 f6 f7"
+                         "g1 g2 g3 g4 g5 g6 g7"
+                         "h1 h2 h3 h4 h5 h6 h7"
+                         "i1 i2 i3 i4 i5 i6 i7"
+                         "j1 j2 j3 j4 j5 j6 j7";
+    column-gap: 2px;
+    row-gap: 2px;
+    }
+
+    #h2amedida{
+grid-area: a123;
+    }
+    #pamedida{
+grid-area: b123;
+    }
+    #h3amedida{
+grid-area: c12;
+    }
+
+#amedidamueble{
+    grid-area: d1;
+    height: 180px;
+    width: 150%;
+    border-radius: 5%;
+}
+#amedidabochas{
+    grid-area: e3;
+    height: 180px;
+    width: 150%;
+    border-radius: 5%;
+}
+#amedidabacha{
+    grid-area: f1;
+    height: 180px;
+    width: 150%;
+    border-radius: 5%;
+}
+#amedidaapoya{
+    grid-area: g3;
+    height: 180px;
+    width: 150%;
+    border-radius: 5%;
+}
+#amedidamesa{
+    grid-area: h1;
+    height: 180px;
+    width: 150%;
+    border-radius: 5%;
+}
+
+
+
+    #amedidapmueble{
+        position: absolute;
+        left: 26%;
+        top: 520px;
+    }
+    #amedidapbochas{
+
+        position: absolute;
+        left: 53%;
+        top: 605px;
+    }
+    #amedidapbacha{
+        position: absolute;
+        left: 26%;
+        top: 725px;
+    }
+    #amedidapapoya{
+        position: absolute;
+        left: 53%;
+        top: 805px;
+    }
+    #amedidapmesa{
+
+        position: absolute;
+        left: 26%;
+        top: 950px;
+    }
+
+
+    #amedidamueble:hover{
+        transform: scale(1.1,1.1);
+    }
+    #amedidabochas:hover{
+        transform: scale(1.1,1.1);
+    }
+    #amedidabacha:hover{
+        transform: scale(1.1,1.1);
+    }
+    #amedidaapoya:hover{
+        transform: scale(1.1,1.1);
+    }
+    #amedidamesa:hover{
+        transform: scale(1.1,1.1);
+    }
+
+    #mueblesmain{
+
+        display: grid;
+        grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+        grid-template-areas: "a123 a123 a123 a4 a5 a6 a7"
+                             "b123 b123 b123 b4 b5 b6 b7"
+                             "c12 c12 c3 c4 c5 c6 c7"
+                             "d1 d2 d3 d4 d5 d6 d7"
+                             "e1 e2 e3 e4 e5 e6 e7"
+                             "f1 f2 f3 f4 f5 f6 f7"
+                             "g1 g2 g3 g4 g5 g6 g7"
+                             "h1 h2 h3 h4 h5 h6 h7"
+                             "i1 i2 i3 i4 i5 i6 i7"
+                             "j1 j2 j3 j4 j5 j6 j7";
+        column-gap: 2px;
+        row-gap: 2px;
+        }
+
+#h2muebles{
+grid-area: a123;
+}
+#pmuebles{
+grid-area: b123;
+}
+#h3muebles{
+grid-area: c12;
+}
+
+#mueblesmesita{
+    grid-area: d1;
+    height: 180px;
+    width: 150%;
+    border-radius: 5%;
+}
+#muebleslapiz{
+    grid-area: e3;
+    height: 180px;
+    width: 150%;
+    border-radius: 5%;
+}
+#mueblesmiche{
+    grid-area: f1;
+    height: 180px;
+    width: 150%;
+    border-radius: 5%;
+}
+#mueblesreposera{
+    grid-area: g3;
+    height: 180px;
+    width: 150%;
+    border-radius: 5%;
+}
+#mueblescomedor{
+    grid-area: h1;
+    height: 180px;
+    width: 150%;
+    border-radius: 5%;
+}
+
+
+
+#mueblespmesita{
+    position: absolute;
+    left: 26%;
+    top: 515px;
+}
+#mueblesplapiz{
+    position: absolute;
+    left: 53%;
+    top: 605px;
+}
+#mueblepmiche{
+    position: absolute;
+    left: 26%;
+    top: 725px;
+}
+#mueblepreposera{
+    position: absolute;
+    left: 53%;
+    top: 805px;
+}
+#mueblepcomedor{
+    position: absolute;
+    left: 26%;
+    top: 932px;
+}
+
+
+#mueblesmesita:hover{
+    transform: scale(1.1,1.1);
+}
+#muebleslapiz:hover{
+    transform: scale(1.1,1.1);
+}
+#mueblesmiche:hover{
+    transform: scale(1.1,1.1);
+}
+#mueblesreposera:hover{
+    transform: scale(1.1,1.1);
+}
+#mueblescomedor:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+#instalogo{
+    height: 20px;
+    width: 3%;
+}
+
+}
+
+.container-fluid{
+    justify-items: center;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    #Indexmaingrilla{
+        display: grid;
+        grid-template-rows:  150px 100px 160px 80px 80px 80px 105px 80px 105px 80px 105px 80px 80px 80px 80px 80px 80px 80px ;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "ab1 ab1"
+                             "ab2 ab2"
+                             "ab3 ab3"
+                             "ab456 ab456"
+                             "ab456 ab456"
+                             "ab456 ab456"
+                             "a7 b7"
+                             "a8 b8"
+                             "a9 b9"
+                             "a10 b10"
+                             "a11 b11"
+                             "a12 b12"
+                             "a13 b13"
+                             "ab1415 ab1415"
+                             "ab1415 ab1415"
+                             "ab16 ab16"
+                             "ab1718 ab1718"
+                             "ab1718 ab1718";
+column-gap: 2px;
+row-gap: 2px;
+    }
+
+#h2index{
+grid-area: ab1;
+}
+#p1index{
+grid-area: ab2;
+}
+#nuestro{
+grid-area: ab3;
+}
+#ulindex{
+grid-area: ab456;
+}
+
+#fotohome2{
+grid-area: a7;
+}
+#fotohome3{
+grid-area: a9;
+}
+#fotohome5{
+grid-area: a11;
+}
+
+#divindex2{
+    grid-area: ab1415;
+}
+#h4index{
+grid-area: ab16;
+}
+#divbotones{
+    grid-area: ab1718;
+}
+
+#maincocina{
+    display: grid;
+    grid-template-rows:80px 80px 80px 80px 80px  80px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "ab1 ab1"
+                         "ab234 ab234"
+                         "ab234 ab234"
+                         "ab234 ab234"
+                         "a5 b5"
+                         "a6 b6"
+                         "a7 b7"
+                         "ab8 ab8"
+                         "a9 b9"
+                         "ab10 ab10"
+                         "a11 b11"
+                         "ab12 ab12"
+                         "a13 b13"
+                         "ab14 ab14"
+                         "a15 b15"
+                         "ab16 ab16"
+                         "a17 b17"
+                         "ab18 ab18"
+                         "a19 b19"
+                         "ab20 ab20"
+                         "a21 b21"
+                         "ab22 ab22";
+column-gap: 2px;
+row-gap: 2px;
+}
+#h2cocina{
+    grid-area: ab1;
+}
+#divcocina{
+    grid-area: ab234;
+}
+#tablapicar{
+grid-area: a7;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+#mortero{
+grid-area: a9;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+#utensilios{
+grid-area: a11;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+#espatula{
+grid-area: a13;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+#fogonero{
+grid-area: a15;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+#noqueras{
+grid-area: a17;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+#batea{
+grid-area: a19;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+#posavaso{
+grid-area: a21;
+height: 180px;
+width: 150%;
+border-radius: 8%;
+}
+
+#cocinaptabla{
+grid-area: ab8;
+margin-top: 10%;
+}
+#cocinapmortero{
+    grid-area: ab10;
+    margin-top: 10%;
+}
+#cocinaputensilio{
+    grid-area: ab12;
+    margin-top: 10%;
+}
+#cocinapespatula{
+    grid-area: ab14;
+    margin-top: 10%;
+}
+#cocinapfogonero{
+    grid-area: ab16;
+    margin-top: 10%;
+}
+#cocinapnoquera{
+    grid-area: ab18;
+    margin-top: 10%;
+}
+#cocinapbatea{
+    grid-area: ab20;
+    margin-top: 10%;
+}
+#cocinapposavaso{
+    grid-area: ab22;
+    margin-top: 10%;
+}
+
+
+
+#colgantesmain{
+    display: grid;
+    grid-template-rows:80px 80px 80px 80px 150px 150px 150px 150px 150px 150px 150px  150px 150px 150px 150px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:"ab1 ab1"
+                        "ab23 ab23"
+                        "ab23 ab23"
+                        "ab4 ab4"
+                        "a5 b5"
+                        "ab6 ab6"
+                        "a7 b7"
+                        "ab8 ab8"
+                        "a9 b9"
+                        "ab10 ab10"
+                        "a11 b11"
+                        "ab12 ab12"
+                        "a13 b13"
+                        "ab14 ab14"
+                        "a15 b15"
+                        "a16 b16"
+                        "a17 b17"
+                        "a18 b18"
+                        "a19 b19";
+}
+#h2colgantes{
+grid-area: ab1;
+}
+#pcolgantes{
+    grid-area: ab23;
+}
+#h3colgantes{
+    grid-area: ab4;
+}
+
+#colgantespalo{
+    grid-area: a5;
+height: 180px;
+width: 150%;
+}
+#colgantesmoneda{
+    grid-area: a7;
+    height: 180px;
+    width: 150%;
+}
+#colgantesclavo{
+    grid-area: a9;
+    height: 180px;
+    width: 150%;
+}
+#colgantespaz{
+    grid-area: a11;
+    height: 180px;
+    width: 150%;
+}
+#colgantesvibora{
+    grid-area: a13;
+    height: 180px;
+    width: 150%;
+}
+
+
+#colganteppalo{
+    grid-area: ab6;
+    margin-top: 10%;
+}
+#colgantepmoneda{
+    grid-area: ab8;
+    margin-top: 10%;
+}
+#colgantepclavo{
+    grid-area: ab10;
+    margin-top: 10%;
+}
+#colganteppaz{
+    grid-area: ab12;
+    margin-top: 10%;
+}
+#colgantepvibora{
+    grid-area: ab14;
+    margin-top: 10%;
+}
+
+
+
+
+#amedidamain{
+    display: grid;
+    grid-template-rows:80px 80px 80px 80px 150px 150px 150px 150px 150px 150px 150px  150px 150px 150px 150px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:"ab1 ab1"
+                        "ab23 ab23"
+                        "ab23 ab23"
+                        "ab4 ab4"
+                        "a5 b5"
+                        "ab6 ab6"
+                        "a7 b7"
+                        "ab8 ab8"
+                        "a9 b9"
+                        "ab10 ab10"
+                        "a11 b11"
+                        "ab12 ab12"
+                        "a13 b13"
+                        "ab14 ab14"
+                        "a15 b15"
+                        "a16 b16"
+                        "a17 b17"
+                        "a18 b18"
+                        "a19 b19";
+                        }
+
+#h2amedida{
+grid-area: ab1;
+}
+#pamedida{
+    grid-area: ab23;
+}
+#h3amedida{
+grid-area: ab4;
+}
+
+#amedidamueble{
+    grid-area: a5;
+height: 180px;
+width: 150%;
+}
+#amedidabochas{
+grid-area: a7;
+height: 180px;
+width: 150%;
+}
+#amedidabacha{
+    grid-area: a9;
+    height: 180px;
+    width: 150%;
+}
+
+#amedidaapoya{
+grid-area: a11;
+height: 180px;
+width: 150%;
+}
+#amedidamesa{
+grid-area: a13;
+height: 180px;
+width: 150%;
+}
+
+
+#amedidapmueble{
+grid-area: ab6;
+margin-top: 10%;
+}
+#amedidapbochas{
+grid-area: ab8;
+margin-top: 10%;
+}
+#amedidapbacha{
+grid-area: ab10;
+margin-top: 10%;
+
+}
+#amedidapapoya{
+grid-area: ab12;
+margin-top: 10%;
+}
+#amedidapmesa{
+grid-area:  ab14;
+margin-top: 10%;
+}
+
+
+
+
+
+
+#mueblesmain{
+    display: grid;
+    grid-template-rows:80px 80px 80px 80px 150px 150px 150px 150px 150px 150px 150px  150px 150px 150px 150px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:"ab1 ab1"
+                        "ab23 ab23"
+                        "ab23 ab23"
+                        "ab4 ab4"
+                        "a5 b5"
+                        "ab6 ab6"
+                        "a7 b7"
+                        "ab8 ab8"
+                        "a9 b9"
+                        "ab10 ab10"
+                        "a11 b11"
+                        "ab12 ab12"
+                        "a13 b13"
+                        "ab14 ab14"
+                        "a15 b15"
+                        "a16 b16"
+                        "a17 b17"
+                        "a18 b18"
+                        "a19 b19";
+                        }
+
+#h2muebles{
+    grid-area: ab1;
+    }
+    #pmuebles{
+        grid-area: ab23;
+    }
+    #h3muebles{
+    grid-area: ab4;
+    }
+    
+    #mueblesmesita{
+        grid-area: a5;
+        height: 180px;
+        width: 150%;
+    }
+    #muebleslapiz{
+    grid-area: a7;
+    height: 180px;
+    width: 150%;
+    }
+    #mueblesmiche{
+        grid-area: a9;
+        height: 180px;
+        width: 150%;
+    }
+    
+    #mueblesreposera{
+    grid-area: a11;
+    height: 180px;
+    width: 150%;
+    }
+    #mueblescomedor{
+    grid-area: a13;
+    height: 180px;
+    width: 150%;
+    }
+    
+    
+    #mueblespmesita{
+    grid-area: ab6;
+    margin-top: 10%;
+    }
+    #mueblesplapiz{
+    grid-area: ab8;
+    margin-top: 10%;
+    }
+    #mueblepmiche{
+    grid-area: ab10;
+    margin-top: 10%;
+    }
+    #mueblepreposera{
+    grid-area: ab12;
+    margin-top: 10%;
+    }
+    #mueblepcomedor{
+    grid-area: ab14;
+    margin-top: 10%;
+    }
+    
+
+
+
+
+}

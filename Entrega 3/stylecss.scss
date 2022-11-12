@@ -1,0 +1,14 @@
+
+
+
+@mixin ConfiguracionIMG ($altura, $ancho, $bordes) {
+    height: $altura;
+    width: $ancho;
+    border-radius: $bordes;
+}
+
+.todasIMG{
+    @include ConfiguracionIMG (180px , 150% , 5% );
+
+
+}
